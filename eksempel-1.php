@@ -6,7 +6,7 @@
 $fornavn=$_POST ["fornavn"];
 $etternavn=$_POST ["etternavn"];
 
-print <h1 id="extra-large-heading"> ("Dette er en test <br/>");
+print (<h1 id="extra-large-heading"> "Dette er en test <br/>");
 print ("Navnet du har skrevet inn er $fornavn, $etternavn <br/>");
 
 ?>
