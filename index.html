@@ -4,17 +4,18 @@
 <title>Start Oppgave</title>
 </head>
 <body>
-PRG120V
-Dette er starten på programmerings emne i IT og Ledelse :)
-
-Datoen idag er 13.08.2025
+PRG120V <br />
+Dette er starten på programmerings emne i IT og Ledelse :) <br />
+Datoen idag er 13.08.2025 <br />
 <br />
   <h2> Skriv inn et navn </h2> <br />
-    <input type "text" id="navn1" value="navn1"/>
-    <input type "text" id="navn2" value="navn2"/>
-
-    
   
-  
+    <form method="post" action="main/eksempel-1.php" id="eksempel-1" name="eksempel-1">
+    Fornavn <input type="text" id="fornavn" name="fornavn" required /> <br />
+    Etternavn <input type="text" id="etternavn" name="etternavn" required /> <br />
+    <input type="submit" value="Fortsett" id="fortsett" name="fortsett" />
+    <input type="reset" value="Nullstill" name="nullstill" id="nullstill" /> <br />
+    </form>
+      
 </body>
 </html>
