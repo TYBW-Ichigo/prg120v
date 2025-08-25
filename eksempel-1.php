@@ -6,7 +6,7 @@
 $fornavn=$_POST ["fornavn"];
 $etternavn=$_POST ["etternavn"];
 
-Header ( "Dette er en test" );
+header ("Dette er en test");
 print ("Navnet du har skrevet inn er $fornavn, $etternavn");
 
 ?>
