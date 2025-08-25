@@ -7,3 +7,5 @@ $fornavn=$_POST ["fornavn"];
 $etternavn=$_POST ["etternavn"];
 
 print ("Navnet du har skrevet inn er $fornavn, $etternavn");
+
+?>
