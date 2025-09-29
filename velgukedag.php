@@ -19,7 +19,7 @@
  if (isset($_POST ["velgukedagknapp"]))
     {
       $ukedag=$_POST ["ukedag"];
-      print ("F&oslash;lgende ukedag er valgt: $ukedag <br />");
+      print ("Du har valgt dagen: $ukedag <br />");
     }
 
 ?>
