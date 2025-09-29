@@ -11,12 +11,12 @@
     <option value="torsdag">torsdag</option>
     <option value="fredag">fredag</option>
   </select>  <br />
-  <input type="submit" value="Velg ukedag" id="velgUkedagKnapp" name="velgUkedagKnapp" /> 
+  <input type="submit" value="Velg ukedag" id="velgukedagknapp" name="velgukedagknapp" /> 
 </form>
 
 <?php
 
- if (isset($_POST ["velgukedag"]))
+ if (isset($_POST ["velgukedagknapp"]))
     {
       $ukedag=$_POST ["ukedag"];
       print ("F&oslash;lgende ukedag er valgt: $ukedag <br />");
